@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>登録する | KimiTube</title>
+  <link rel="stylesheet" href="reset.css"> 
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="menu.js"></script>  
+</head>
+
+<body class="contents">
+
+  <header>
+    <p id="menu"><a href="#"><img src="img/menu.png" alt="メニューボタン"></a></p>
+    <h1><a href="index.html"><img src="img/logo.png" alt="KimiTubeロゴ"></a></h1>
+    
+    <nav>
+      <ul>
+        <li><a href="try.html">使ってみる</a></li>
+        <li><a href="request.html">依頼する</a></li>
+        <li><a href="#">登録する</a></li>
+        <li><a href="inquiry.html">お問い合わせ</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <h2>登録する</h2>
+
+  <section>
+    <article>
+      <p>編集者として登録をご希望の方は、こちらのフォームに入力の上、送信願います。</p>
+
+      <form action="#">
+
+        <dl>
+          <dt>お名前</dt>
+          <dd>
+            <input type="text" name="name" placeholder="例）佐藤君粒">
+          </dd>
+        </dl>
+          
+        <dl>
+          <dt>お電話番号</dt>
+          <dd>
+            <input type="text" name="tel" placeholder="080-xxxx-xxxx">
+          </dd>
+        </dl>
+          
+        <dl>
+          <dt>メールアドレス</dt>
+          <dd>
+            <input type="email" name="mail" placeholder="例）kimitube@example.com">
+          </dd>
+        </dl>
+          
+        <dl>
+          <dt>よくみるYouTuberは？</dt>
+          <dd>
+            <textarea name="youtuber"></textarea>
+          </dd>
+        </dl>
+
+        <dl>
+          <dt>得意なテイストの編集は？</dt>
+          <dd>
+            <label><input type="radio" name="question" value="youtube" checked>YouTubeの動画編集</label>
+            <label><input type="radio" name="question" value="結婚">結婚式などの余興ムービー</label>
+            <label><input type="radio" name="question" value="マニュアル">マニュアル動画</label>
+            <label><input type="radio" name="question" value="セミナー">セミナー</label>
+            <label><input type="radio" name="question" value="広告">広告</label>
+            <label><input type="radio" name="question" value="その他">その他</label>
+          </dd>
+        </dl>
+
+        <dl>
+          <dt>あなたの編集スキルは？</dt>
+          <dd>
+              <p class="naibuyohaku">
+              <label><input type="radio" name="question" value="youtube" checked>ぼちぼち</label>
+              <label><input type="radio" name="question" value="結婚">普通</label>
+              <label><input type="radio" name="question" value="マニュアル">なんでも出来ます！</label>
+              </p>
+          </dd>
+        </dl>
+
+        <dl>
+          <dt>その他なにか気になることがありましたら下記にご入力ください</dt>
+          <dd>
+            <textarea name="other"></textarea>
+          </dd>
+        </dl>
+
+        <input class="contact-submit" type="submit" value="送信する">
+
+      </form>
+
+    </article>
+  </section>
+
+  <div id="pagetop"><a href="#top"><img src="img/top.png"></a></div>
+
+  <footer>&copy;2023 kimiTube. All rights reserved.</footer>
+
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>お問い合わせ | KimiTube</title>
+  <link rel="stylesheet" href="reset.css"> 
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="menu.js"></script>
+</head>
+
+<body class="contents">
+
+  <header>
+    <p id="menu"><a href="#"><img src="img/menu.png" alt="メニューボタン"></a></p>
+    <h1><a href="index.html"><img src="img/logo.png" alt="KimiTubeロゴ"></a></h1>
+    
+    <nav>
+      <ul>
+        <li><a href="try.html">使ってみる</a></li>
+        <li><a href="request.html">依頼する</a></li>
+        <li><a href="reg.html">登録する</a></li>
+        <li><a href="#">お問い合わせ</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <h2>お問い合わせ</h2>
+
+  <section>
+    <article>
+      <p>当サービスに興味がありましたら、どんなことでもお気軽にご相談ください！</p>
+      <form action="#">
+
+        <dl>
+          <dt>使い方に関するお問い合わせ</dt>
+          <dd>
+            <textarea name="howto"></textarea>
+          </dd>
+        </dl>
+        <dl>
+          <dt>依頼者または編集者とのトラブル</dt>
+          <dd>
+            <textarea name="trouble"></textarea>
+          </dd>
+        </dl>
+
+        <dl>
+          <dt>その他のお問い合わせ</dt>
+          <dd>
+            <textarea name="other"></textarea>
+          </dd>
+        </dl>
+
+        <input class="contact-submit" type="submit" value="送信する">
+
+      </form>
+
+    </article>
+  </section>
+
+  <div id="pagetop"><a href="#top"><img src="img/top.png"></a></div>
+
+  <footer>&copy;2023 kimiTube. All rights reserved.</footer>
+
+</body>
+</html>
